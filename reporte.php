@@ -38,7 +38,7 @@ class PDF extends FPDF{
     $pdf ->Cell(49,9,'Descripcion',0,0,'C',1);
     $pdf ->Cell(49,9,'Cant_existencia',0,1,'C',1);
     include ("db.php");
-    //require ("db.php");
+    require ("db.php");
 
     $consulta = "SELECT * FROM `tab_artículos`";
     $resultado = mysqli_query($conexion, $consulta);

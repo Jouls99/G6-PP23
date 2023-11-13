@@ -5,7 +5,7 @@ if(!isset($_SESSION['rol'])){
   header('location:login.php');
 }else{
   if($_SESSION['rol']!=1){
-    header('location:login.php');
+    header('location:index.php');
   }
 }
 ?>
@@ -65,7 +65,7 @@ if(!isset($_SESSION['rol'])){
         </div>
       </a>
       
-      <a href="login.php">
+      <a href="indice.html">
         <div class="option">
           <i class="fas fa-right-to-bracket" title="salir"></i>
           <h4>Salir</h4>

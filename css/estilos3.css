@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: #66cc00;
+}
+
+.sesioncerrado1 {
+  color: black;
+  font-size: 18px;
+  font-family: "Myriad Pro Bold Condensed Italic";
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.sesioncerrado2 {
+  color: blue;
+  font-size: 18px;
+  font-family: arial;
+}
+
+.panel1 {
+  font-size: 18px;
+  font-family: "Myriad Pro Light Condensed";
+  padding-left: 20px;
+}
+
+.usuario2 {
+  font-size: 18px;
+  font-family: "Myriad Pro Light Condensed";
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.titulom {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.contenedor {
+  margin-top: 10px;
+}
+
+#monedam {
+  width: 200px;
+  font-size: 15px;
+  font-family: "Myriad Pro Bold Condensed Italic";
+}
+
+#monedaf {
+  padding-left: 20px;
+}

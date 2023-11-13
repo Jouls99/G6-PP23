@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 10;
+}
+
+.body {
+  background: white;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1px;
+  margin: 0 0 auto;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+header nav {
+  width: 100%;
+  margin: 0px;
+  background-image: href="imagen/guardaGobCtes.png";
+}
+
+.usuario {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.usuario2 {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.menu_bar {
+  display: none;
+}
+
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  color: green;
+  font-size: 22px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+header nav ul li span {
+  margin-right: 10px;
+}
+
+header nav ul li a:hover {
+  background: green;
+}
+
+.main {
+  width: 100%;
+  background: honeydew;
+  position: fixed;
+}
+
+.imagen1 {
+  width: 100%;
+  height: 90%;
+  display: block;
+}
+
+.imagen2 {
+  width: 1%;
+  height: auto;
+  display: none;
+}
+
+.imagen4 {
+  width: 1%;
+  height: auto;
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    left: 100%;
+    margin: 0;
+    position: center;
+  }
+
+  .header nav ul li {
+    display: block;
+    float: none;
+    border-bottom: 1px solid black;
+  }
+
+  .menu_bar {
+    display: block;
+    width: 100%;
+    background: #0a3172;
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    background: #66cc00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
+
+  .imagen1 {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .imagen2 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .imagen1 {
+    width: 50%;
+    height: auto;
+    display: none;
+  }
+
+  .imagen2 {
+    width: auto;
+    height: 50%;
+    display: none;
+  }
+
+  .imagen4 {
+    width: auto;
+    height: 50%;
+    display: block;
+  }
+}

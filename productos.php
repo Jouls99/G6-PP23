@@ -61,7 +61,7 @@ include_once 'db.php';
         </div>
       </a>
       
-      <a href="index.php">
+      <a href="indice.html">
         <div class="option">
           <i class="fas fa-right-to-bracket" title="salir"></i>
           <h4>Salir</h4>

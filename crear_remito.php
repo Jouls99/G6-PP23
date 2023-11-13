@@ -784,3 +784,4 @@ while($mostrar=mysqli_fetch_array($result)){
   </main>
 </body>
 </html>
+</html>
